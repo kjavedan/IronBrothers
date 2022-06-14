@@ -1,0 +1,139 @@
+
+/*GLOBAL STYLE*/
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 0.875rem;
+}
+p {
+    margin-bottom: 1.25rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media only screen and (min-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    body {
+        font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1;
+    }
+
+}
+
+/*MAIN STYLE*/
+.center{
+    width: 85vw;
+    /*background-color: #5fbabf;*/
+    margin: 0 auto;
+    margin-bottom: 10vw;
+}
+.image img{
+    width: 100%;
+}
+/*.title h2{*/
+/*    font-size: 1.5rem;*/
+/*    margin-top: 3rem;*/
+/*}*/
+.title{
+    margin-top: 7vw;
+}
+.underline{
+    margin: 0 auto;
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #56b0aa;
+}
+.question{
+    /*border: 1px solid gray;*/
+    margin: 2rem auto;
+    height: auto;
+    /*background: white;*/
+    text-align: left;
+    box-shadow: 2px 2px 2px 2px #E3E2E2FF;
+    border-radius: 5px;
+    padding:1.5rem 1.5rem 0 1.5rem;
+}
+.question-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.question-title p{
+    margin-bottom: 0;
+}
+.question-btn{
+    background: transparent;
+    border: transparent;
+    color: #C59D5FFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.question-btn:hover{
+    transform: rotate(90deg);
+}
+.question-text {
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+/*hide the text*/
+.question-text{
+    display: none;
+}
+.minus-icon{
+    display: none;
+}
+/*show the text if the button is clicked*/
+.show-text .question-text{
+    display: block;
+}
+.show-text .minus-icon{
+    display: block;
+}
+.show-text .plus-icon{
+    display: none;
+}
+.footer-border{
+    height: 5px;
+    background-color: #e3e2e2;
+    border-radius: 5px;
+    width: 85vw;
+    margin: 0 auto ;
+}
+
