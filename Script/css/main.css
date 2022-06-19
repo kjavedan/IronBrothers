@@ -554,11 +554,6 @@ margin: 3rem auto;
       height: 100%;
     }
 
-    .w3-button {
-      position: absolute;
-      font-size: 3rem;
-    }
-
     .prev-btn, .next-btn {
       width: 130px;
       position: absolute;
