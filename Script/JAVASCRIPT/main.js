@@ -108,6 +108,7 @@ const comments = [
 let currentNumber = 0;
 
 //getting values
+const slider = document.querySelector('.story-slider');
 const image = document.getElementById("person-img");
 const author = document.getElementById("author");
 const job = document.getElementById("job");
@@ -171,6 +172,7 @@ function setValue() {
     info.textContent = item.text;
 }
 
+//last slider function
 var slideIndex = 1;
 showSlides(slideIndex);
 
