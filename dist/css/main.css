@@ -87,19 +87,19 @@ li a{
 
 .pic1 {
   height:600px;
-  background-image: url(/image/picture1-s.png);
+  background-image: url(../image/picture1-s.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 .pic2{
   height: 280px;
-  background-image: url(/image/picture2-s.png);
+  background-image: url(../image/picture2-s.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .pic3{
   height: 620px;
-  background-image: url(/image/picture3-s.png);
+  background-image: url(../image/picture3-s.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -110,19 +110,19 @@ li a{
 
   .pic1 {
     height:600px;
-    background-image: url(/image/picture1.png);
+    background-image: url(../image/picture1.png);
     background-repeat: no-repeat;
     background-position: center;
   }
   .pic2{
     height: 500px;
-    background-image: url(/image/picture2.png);
+    background-image: url(../image/picture2.png);
     background-position: center;
     background-repeat: no-repeat;
   }
   .pic3{
     height: 620px;
-    background-image: url(/image/picture3.png);
+    background-image: url(../image/picture3.png);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -187,7 +187,7 @@ li a{
   display: block;
 }
 .svg{
-  background-image: url(/image/1s.png);
+  background-image: url(../image/1s.png);
   height: 410px;
   background-repeat: no-repeat ;
   background-position: center;
@@ -215,7 +215,7 @@ li a{
     margin: 0 auto;
   }
   .svg{
-    background-image: url(/image/36.png);
+    background-image: url(../image/36.png);
     height: 410px;
     background-repeat: no-repeat ;
     background-position: center;
@@ -399,7 +399,7 @@ margin: 3rem auto;
   /*  height: 598px;*/
   /*  width: 464px;*/
   /*  background-color: aqua;*/
-  /*  background-image: url(/image/pic1-d.png);*/
+  /*  background-image: url(../image/pic1-d.png);*/
 
   /*}*/
 
@@ -604,7 +604,7 @@ margin: 3rem auto;
     }
 
     .pic1 {
-      background-image: url(/image/pic1-d.png);
+      background-image: url(../image/pic1-d.png);
       background-repeat: no-repeat;
       height: 600px;
       width: 50%;
@@ -615,7 +615,7 @@ margin: 3rem auto;
     }
 
     .pic2 {
-      background-image: url(/image/pic2-d.png);
+      background-image: url(../image/pic2-d.png);
       background-repeat: no-repeat;
       height: 600px;
       width: 50%;
@@ -625,7 +625,7 @@ margin: 3rem auto;
     }
 
     .pic3 {
-      background-image: url(/image/pic3-d.png);
+      background-image: url(../image/pic3-d.png);
       background-repeat: no-repeat;
       height: 600px;
       width: 50%;
