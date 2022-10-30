@@ -1,5 +1,5 @@
 # IronBrothers
 
 Hi everyone!
-This my first front-end project :)
+This is my first front-end project :)
 
